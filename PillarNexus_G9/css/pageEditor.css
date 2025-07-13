@@ -1,0 +1,89 @@
+
+body {
+  background-color: #fefefe;
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 70px; /* Adjust as needed to match exact navbar height */
+  color: #333;
+}
+
+
+.editor-container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2f4b7c;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+section h2 {
+  color: #2f4b7c;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #444;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #003f5c;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+code {
+  background: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-links a, .social-icons a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover, .social-icons a:hover {
+  text-decoration: underline;
+}
